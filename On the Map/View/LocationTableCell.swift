@@ -8,6 +8,10 @@
 
 import UIKit
 
-class TableCell: UITableViewCell {
+class LocationTableCell: UITableViewCell {
 
+    @IBOutlet weak var nameTextField: UILabel!
+    @IBOutlet weak var linkTextField: UILabel!
+    @IBOutlet weak var pinImageView: UIImageView!
+    
 }
